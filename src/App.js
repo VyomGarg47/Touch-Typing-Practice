@@ -11,7 +11,7 @@ const initialState = {
   started: false,
   finished: false,
 };
-
+// Added a comment
 class App extends Component {
   state = initialState;
   onRestart = () => {
